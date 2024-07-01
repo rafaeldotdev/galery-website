@@ -16,9 +16,9 @@
     <div id="app">
       <header class="container">
         <nav>
-          <img class="logo" src="./assets/logo.png" alt="" />
+           <a href="index.html"><img class="logo" src="./assets/logo.png" alt="" /></a>
           <ul>
-            <li>Home</li>
+            <li><a href="index.html">Home</a></li>
             <li class="active">Galeria</li>
           </ul>
         </nav>
@@ -33,16 +33,16 @@
           </div>
         </form>
 
-        <img
-          class="avatar"
-          src="https://randomuser.me/api/portraits/women/9.jpg"
-          alt=""
-        />
+        <div class="userArea">
+          <button class="userBtn"><a href="register.html">Sign up</a></button>
+          <button class="userBtn"><a href="login.html">Sing in</a></button>
+        </div>
+
+
       </header>
       <main>
         <div class="container">
           <h1>Galeria</h1>
-
             <section class="add-photo">
                 <figure class="add-item">
                     <h1>Adicionar Foto</h1>
@@ -55,9 +55,51 @@
                 </figure>
             </section>
 
+            <div class="titleGallery">
+              <h2>Volkswagen</h2>
+            </div>
+
           <section class="gallery">
+            
               <figure class="item">
-                <img src="https://source.unsplash.com/random?a=1" alt="" />
+                <img src="./assets/golf.jpg" alt="" />
+                <figcaption class="details">
+                    <h2>Golf GTI</h2>
+                  <div class="tag">
+                    <span>TAG</span>
+                  </div>
+                </figcaption>
+              </figure>
+            
+              <figure class="item">
+                <img src="./assets/jetta.jpg" alt="" />
+                <figcaption class="details">
+                    <h2>Jetta</h2>
+                  <div class="tag">
+                    <span>TAG</span>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="item">
+                <img src="./assets/tiguan.jpg" alt="" />
+                <figcaption class="details">
+                    <h2>Tiguan</h2>
+                  <div class="tag">
+                    <span>Sim é uma tiguan!</span>
+                  </div>
+                </figcaption>
+              </figure>
+              </section>
+
+                <div class="titleGallery">
+              <h2>Chevrolet</h2>
+            </div>
+              <section class="gallery">
+            
+
+              <figure class="item">
+                <img src="./assets/camaro.jpg" alt="" />
                 <figcaption class="details">
                     <h2>Workspace elétrica</h2>
                   <div class="tag">
@@ -67,7 +109,7 @@
               </figure>
 
               <figure class="item">
-                <img src="https://source.unsplash.com/random?b=1" alt="" />
+                <img src="./assets/corvette.jpg" alt="" />
                 <figcaption class="details">
                     <h2>Workspace elétrica</h2>
                   <div class="tag">
@@ -77,7 +119,7 @@
               </figure>
 
               <figure class="item">
-                <img src="https://source.unsplash.com/random?c=1" alt="" />
+                <img src="./assets/cruze.jpg" alt="" />
                 <figcaption class="details">
                     <h2>Workspace elétrica</h2>
                   <div class="tag">
@@ -85,36 +127,8 @@
                   </div>
                 </figcaption>
               </figure>
+      
 
-              <figure class="item">
-                <img src="https://source.unsplash.com/random?d=1" alt="" />
-                <figcaption class="details">
-                    <h2>Workspace elétrica</h2>
-                  <div class="tag">
-                    <span>TAG</span>
-                  </div>
-                </figcaption>
-              </figure>
-
-              <figure class="item">
-                <img src="https://source.unsplash.com/random?e=1" alt="" />
-                <figcaption class="details">
-                    <h2>Workspace elétrica</h2>
-                  <div class="tag">
-                    <span>TAG</span>
-                  </div>
-                </figcaption>
-              </figure>
-
-              <figure class="item">
-                <img src="https://source.unsplash.com/random?f=1" alt="" />
-                <figcaption class="details">
-                    <h2>Workspace elétrica</h2>
-                  <div class="tag">
-                    <span>TAG</span>
-                  </div>
-                </figcaption>
-              </figure>
 
               <figure class="item">
                 <img src="https://source.unsplash.com/random?g=1" alt="" />
@@ -156,5 +170,7 @@
         </p>
     </footer>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Sing In</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="container">
+        <nav>
+          <a href="index.html"><img class="logo" src="./assets/logo.png" alt="" /></a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Galeria</li>
+          </ul>
+        </nav>
+        <form>
+          <div class="input-wrapper">
+            <label for="search">Pesquise por imagens e coleções</label>
+            <input
+              type="text"
+              id="search"
+              placeholder="Pesquise por imagens e coleções"
+            />
+          </div>
+        </form>
+
+        <img
+          class="avatar"
+          src="https://randomuser.me/api/portraits/women/9.jpg"
+          alt=""
+        />
+      </header>
+
+      <main>
+        <div class="container">
+      
+            <section class="form-area">
+              <h1>Log<span class="titleSpan">in</span></h1>
+
+              <form action="">
+                <label for="username">Username, Email or Phone</label>
+                <input type="text" id="username" />
+
+                <label for="">Password</label>
+                <input type="password" id="password" />
+                <span><a href="#">Forget your password?</a></span>
+              </form>
+              
+              <div class="BtnWrapper">
+                <button>Login</button>
+              </div>
+              <div class="social-medias">
+                <span> OR</span>
+                <a href="#"
+                  ><i class="fa-brands fa-google-plus-g"
+                    ></i
+                  >Log in with google</a
+                >
+                <a href="#"
+                  ><i class="fa-brands fa-github"></i>Log in with github</a
+                >
+                <a href="#"
+                  ><i class="fa-brands fa-facebook"></i>Log in with facebook</a
+                >
+              </div>
+            </section>
+        </div>
+      </main>
+      <footer class="container">
+        <p>Todos os direitos reservados &reg;</p>
+      </footer>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/dfcff31ea1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
